@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+           
+}
+
+body{
+    background-image:url(fundo\ \(1\)\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+    
+}
+
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background:  linear-gradient(68.15deg, #090927 16.62%, #3a2988 85.60%);
+    padding-block-end: 30px;
+   
+}
+.logo{
+    width: 15%;
+    border-radius: 30%;
+}
+
+
+
+header{
+  min-height: 150px;
+  text-align: center; 
+  padding-top: 30px;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 3em;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20%;
+
+  
+}
+
+.titulo{
+    font-size:2em;
+    padding-top: 40px;
+     font-family: 'Nabla', cursive;
+     background:  linear-gradient(68.15deg, #090927 16.62%, #3a2988 85.60%);
+     text-align: center;
+     
+}
+
+.content-jogos-left{
+    width: 50%;
+    padding: 0 5px;
+    margin-top: 50px;
+    color: azure;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.content-jogos-right{
+    width: 50%;
+    padding: 0 10px;
+    margin-top: 50px ;
+    color: azure;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.ajuste-flex{
+    display: flex;
+}
+
+.content-jogos-right iframe{
+    width: 60%;
+    border-radius: 0;
+    padding: 0 15px;
+    margin: 35px 0;
+    filter: drop-shadow(0 0 10px #000);
+   
+}
+.content-jogos-left iframe{
+    width: 60%;
+    border-radius: 0;
+    padding: 0 15px;
+    margin: 35px 0;
+    filter: drop-shadow(0 0 10px #000);
+
+}
+
+@media (max-width: 768px){
+    .ajuste-flex{
+        flex-wrap: wrap;
+    }
+    .content-jogos-left,.content-jogos-right{
+        width: 100%;
+    }
+    .logo {
+        max-width: 206px;
+        border-radius: 30%;
+        width: 100%;
+    }
+}
